@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.aumni.listeners.CustomListeners" />
+	</listeners>
+
+	<test name="Blog Page Validation">
+		<classes>
+			<class name="com.aumni.testcases.BlogPageValidation" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="resource Page Validation">
+		<classes>
+			<class name="com.aumni.testcases.resourcePageValidation" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="partner Logo Validation">
+		<classes>
+			<class name="com.aumni.testcases.partnerLogoValidation" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="broken Link Validation">
+		<classes>
+			<class name="com.aumni.testcases.brokenLinkValidation" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="negative LoginVa lidation">
+		<classes>
+			<class name="com.aumni.testcases.negativeLoginValidation" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
