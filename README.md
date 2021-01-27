@@ -5,6 +5,7 @@ If you look into the any existing framework,it will be block of function librari
 # Quick Start
 The General Requirements
 The requirements to write integration tests with the integration testing framework are the folloing:
+
 JDK8+
 Apache Maven 3.1.0 or above.
 
